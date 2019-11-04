@@ -25,5 +25,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('docs/', schema_view),
     path('',include('news.urls')),
-    path('r/',include('reddit.urls')),
 ]
